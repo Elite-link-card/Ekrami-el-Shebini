@@ -2600,11 +2600,12 @@ font-size: 1rem;}
 }
 .fa-location-dot{ left:12px;
   top: 13px;
+
 }
 
   
 
-.detail-list .detargba(29, 49, 120, 0)ircle {
+.detail-list .detail-icon-circle {
   height: 60px;
   width: 60px;
   border-radius: 60%;
