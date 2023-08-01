@@ -2460,7 +2460,7 @@ to {top: 60px;}
   margin-bottom: 0.5rem;
   color: #000000;
  width: 80%;
-margin-left: 18%;
+margin-left: 10%;
 margin-bottom: 80px;
  transform: translateX(0px)
  translateY(0px);
@@ -2598,8 +2598,13 @@ font-size: 1rem;}
   left: 10px;
   top: 13px;
 }
+.fa-location-dot{ left:12px;
+  top: 13px;
+}
 
-.detail-list .detail-icon-circle {
+  
+
+.detail-list .detargba(29, 49, 120, 0)ircle {
   height: 60px;
   width: 60px;
   border-radius: 60%;
@@ -2822,12 +2827,12 @@ justify-content: center;
     position: sticky;
     align-items: start;
     margin: 0px   00px;
-    width: 79.5%;
+    width: 79.4%;
     gap: 8rem;
     top: 0;
     bottom: 0;
     z-index: 3;
-    margin-top: -75px;
+    margin-top: -80px;
     box-sizing: border-box;
     text-decoration: none;
     font-size: 1.5rem;
@@ -2849,10 +2854,11 @@ justify-content: center;
     align-items: end;  
     margin: 0;
     width: 21%;
-    max-height: px;
+    max-height:200px;
     gap: 1rem;
     top: 0px; 
     z-index: 3;
+    margin-bottom: 1px;
     justify-content: end;
     box-sizing: border-box;
     font-size: 1.5rem;
@@ -2884,7 +2890,7 @@ justify-content: center;
     }
    
  button {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 12px 8px;
   margin: 20px 0;
   position: sticky;
