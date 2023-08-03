@@ -1035,7 +1035,7 @@ html {
   justify-content: top;
   position: relative;
   border-radius: 12px;
-  background-image: url(Untitled\ design\ \(1\).png);
+  background-image: url(background1.png);
 }
   max-width: 100%;
 }
@@ -2326,6 +2326,7 @@ fieldset {
 
 .banner-image-container {
   width: 100%;
+  transform: translateY(-70px);
 }
 
 .left-picture {
@@ -2338,7 +2339,7 @@ fieldset {
 
   z-index: 1;
   left: 0;
-  transform: translateX(5%) translateY(-25%);
+  transform: translateX(10%) translateY(-45%);
   position:relative;
   animation-name:PHOTO;
   animation-duration: 1.5s;
@@ -2346,14 +2347,14 @@ fieldset {
  }
 @keyframes PHOTO {
 from {top: 200px;}
-to {top: 0px;}
+to {top: 75px;}
 }
 
 .left-picture[data-image-type="profile"] {
- width:90%;
-  padding-top: 90%;
-  border-radius: 90%;
-}
+  width:85%;
+   padding-top: 85%;
+   border-radius: 90%;
+ }
 
 .left-picture[data-image-type="logo"] {
   width: 35.5555555556%;
@@ -2368,7 +2369,7 @@ to {top: 0px;}
   top: 0;
   left: 0;
   object-fit: cover;
-  object-position: center center;
+  object-position: left left;
 }
 
 .left-picture[data-image-type="logo"] .left-picture-img {
@@ -2392,7 +2393,7 @@ to {top: 0px;}
 
 .left-picture[data-image-type="logo"]::before {
   content: "";
-  background-color: #fff;
+  background-color: #000000;
   width: calc(100% + 2 * 3px);
   height: calc(100% + 2 * 3px);
   position: absolute;
@@ -2411,7 +2412,7 @@ to {top: 0px;}
   right: 5%;
   width: 35.5555555556%;
   padding-top: 20%;
-  transform: translateX(85px) translateY(475px);
+  transform: translateX(800px) translateY(475px);
 }
 
 
